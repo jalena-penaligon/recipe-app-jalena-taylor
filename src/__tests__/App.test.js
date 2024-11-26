@@ -152,7 +152,6 @@ describe("App", () => {
       const deleteButton = container.querySelector(
         'table tbody td button[name="delete" i]'
       );
-      console.log(deleteButton)
        expect(deleteButton).toBeTruthy();
     });
     

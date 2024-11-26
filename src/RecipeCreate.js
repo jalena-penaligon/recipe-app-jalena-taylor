@@ -26,7 +26,7 @@ function RecipeCreate({ addRecipe }) {
 
   return (
     <form name="create" onSubmit={handleSubmit}>
-      <table>
+      <table className="create">
         <tbody>
           <tr>
             <td>
